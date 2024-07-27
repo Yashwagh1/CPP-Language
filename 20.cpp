@@ -47,7 +47,14 @@ Polymorphism - ability to take more than one forms.
 
 Dynamic Binding code which will execute is not known until the program. runs.
 
-Message Passing - Object.message (Information) call format.*/
+Message Passing - Object.message (Information) call format.
+
+
+BENEFIT OF THE OOPS
+ 1.Better code reusability using the object and inheritance 
+ 2.principle of data hiding helps build secure system
+ 3.multiple object can co exits without any interference 
+ 4.software complexity can be managed */
 
 return 0;
 }
