@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int c = 45;
+int c = 45;// global
  
 int main() {
     
