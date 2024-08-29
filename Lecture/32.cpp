@@ -1,5 +1,4 @@
 //Constructer and Default arguments
-
 #include<iostream>
 using namespace std;
 class Simple {
