@@ -8,7 +8,7 @@ class BankDeposite {
     float returnValue;
 
 public:
-BankDeposite(){}
+BankDeposite(){}                    //Default Constructor
 BankDeposite(int p, int y,float r);//r can be a value like 0.04
 BankDeposite(int p, int y,int r);//r can be a value like 14
 void show();
@@ -21,7 +21,7 @@ BankDeposite::BankDeposite(int p,int y, float r){
     returnValue = principle;
     for (int i = 0; i < y; i++)
     {
-        returnValue = returnValue * (1+r);
+        returnValue = returnValue * (1+interstRate);
 
     }
     }
@@ -33,7 +33,7 @@ BankDeposite::BankDeposite(int p,int y, float r){
     returnValue = principle;
     for (int i = 0; i < y; i++)
     {
-        returnValue = returnValue * (1+r);
+        returnValue = returnValue * (1+interstRate);
 
     }
     }
@@ -44,13 +44,15 @@ BankDeposite::BankDeposite(int p,int y, float r){
 
 
 int main(){
-    BankDeposite b1,b2,b3;
+    //BankDeposite b1,b2,b3;
     int p,y;
     float r;
     int R;
+    
+
     cout<<"enter the value of p,r,y,R"<<endl;
     cin>>p>>y>>r>>R;
-    b1=BankDeposite(p,y,r);
+    BankDeposite b1=BankDeposite(p,y,r);
     b1.show();
 
 
