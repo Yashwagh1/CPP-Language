@@ -8,7 +8,8 @@ class Employee
     int d, e;
 
     void setdata (int a1, int b1, int c1);  //declaration 
-    void getdata (){
+    void getdata ()
+    {
         cout<<"The value of the a is "<<a<<endl;
         cout<<"The value of the b is "<<b<<endl;
         cout<<"The value of the c is "<<c<<endl;

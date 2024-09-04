@@ -1,10 +1,2 @@
-//Inheritance in C++
-#include<iostream>
-using namespace std;
-class Employee {
-
-};
-int main(){
-
-return 0;
-}
+//Inheritance in C++ are started in this lecture no coding only 
+//theory of inheritance
