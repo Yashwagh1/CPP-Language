@@ -39,8 +39,8 @@ public:
     void print_marks()
     {
         cout << "your result is here :"
-             << "maths : " << math<<endl;
-             cout<< "physics : " << physics << endl;
+             << "maths : " << math << endl;
+        cout << "physics : " << physics << endl;
     }
 };
 class sport : virtual public student

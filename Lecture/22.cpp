@@ -3,9 +3,8 @@
 using namespace std;
 class binary
 {
-    private :
+private:
     string s;
-    
 
 public:
     void read(void);
@@ -29,34 +28,32 @@ void binary ::chk_binary(void)
         }
     }
 }
-void binary :: onces_compliment(void)
-{ 
+void binary ::onces_compliment(void)
+{
     chk_binary();
-    for (int i = 0; i < s.length(); i++){
-        cout<<s.at(i);
+    for (int i = 0; i < s.length(); i++)
+    {
+        cout << s.at(i);
     }
 }
 
-
-
-
-
-void binary :: display(void)
-{ 
-    cout<<" displaying your binary number"<<endl; 
-    for (int i = 0; i < s.length(); i++){
-        if (s.at(i)=='0'){
-            s.at(i)= '1';
+void binary ::display(void)
+{
+    cout << " displaying your binary number" << endl;
+    for (int i = 0; i < s.length(); i++)
+    {
+        if (s.at(i) == '0')
+        {
+            s.at(i) = '1';
         }
 
-        if (s.at(i)=='1'){
-            s.at(i)= '0';
+        if (s.at(i) == '1')
+        {
+            s.at(i) = '0';
         }
     }
-    cout<<endl;
+    cout << endl;
 }
-
-
 
 int main()
 {

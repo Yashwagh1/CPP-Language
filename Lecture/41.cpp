@@ -1,4 +1,4 @@
-//Multiple inheritance example
+// Multiple inheritance example
 
 #include <iostream>
 using namespace std;
@@ -25,14 +25,15 @@ public:
     }
 };
 
-/* syntax of the ,multiple inheritance 
+/* syntax of the ,multiple inheritance
 class derivedc : visibility-mode base1, visibility-mode base2
 {
 class body of class "derivedc"
 };*/
 
-class derivied : public base1, public base2{
-    protected:
+class derivied : public base1, public base2
+{
+protected:
     int base3int;
 
 public:
