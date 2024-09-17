@@ -1,3 +1,5 @@
+// pointer to derived class in cpp
+
 #include <iostream>
 using namespace std;
 class base
@@ -27,9 +29,9 @@ int main()
     base_class_pointer->var1 = 34;
     derived *derived_class_pointer;
     derived_class_pointer = &obj_derived;
-    
+
     derived_class_pointer->var2 = 364;
-derived_class_pointer->display();
+    derived_class_pointer->display();
     base_class_pointer->display();
 
     return 0;
